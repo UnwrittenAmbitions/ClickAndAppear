@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silly Baby</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+    }
+    #container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .click-text {
+        position: absolute;
+        color: #333;
+        font-size: 32px;
+        font-weight: bold;
+        pointer-events: none; /* Prevent text from interfering with clicks */
+    }
+</style>
+</head>
+<body>
+<div id="container"></div>
+<script src="script.js"></script>
+</body>
+</html>
